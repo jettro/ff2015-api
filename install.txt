@@ -1,0 +1,8 @@
+Installing the server on a pi:
+sudo mkdir /opt/tomcat
+sudo wget http://apache.osuosl.org/tomcat/tomcat-8/v8.0.14/bin/apache-tomcat-8.0.14.tar.gz
+
+sudo useradd -M tomcat
+sudo usermod -L tomcat
+
+chown tomcat: /opt/tomcat
